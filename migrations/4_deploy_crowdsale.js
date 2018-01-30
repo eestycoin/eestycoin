@@ -8,7 +8,7 @@ const EestyCoinToken = artifacts.require('./EestyCoinToken.sol');
 module.exports = function (deployer, network, accounts) {
     let token;
     let wallet;
-    const ratesDivisor = 1000;
+    const ratesDivisor = 10000;
 
     let startTime;
     let endTime;
